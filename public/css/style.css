@@ -1,0 +1,425 @@
+body{
+    margin: 0;
+}
+.registeG{
+    display: flex;
+   
+}
+.content {
+    width:100vh;
+    height: 100vh;
+    background-image: url('/image/barw.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.content1 {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.517);
+}
+.Rempl{
+    width: 100%;
+    background-color: rgb(183, 39, 39);
+}
+.inputCon{
+    margin-left: 35%;
+    margin-top: 15%;
+    
+}
+.MAIL{
+    margin-bottom: 6%;
+}
+.MAIL input{
+    font-size: 25px;
+    padding: 2%;
+    border-radius: 38px;
+    border: none;
+}
+.PASS{
+    margin-bottom: 6%;
+}
+.PASS input{
+   font-size: 25px;
+   padding: 2%;
+   border-radius: 38px;
+   border: none;
+}
+.CPASS{
+    margin-bottom: 6%;
+}
+.CPASS input{
+    font-size: 25px;
+    padding: 2%;
+    border-radius: 38px;
+    border: none;
+}
+.RemP1{
+    margin-left: 35%;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+.MAIL input:focus,.PASS input:focus,.CPASS input:focus{
+outline: none;
+border: 1px solid rgb(133, 102, 102);
+}
+.BTNC{
+    margin-left: 5%;
+    font-size: 23px;
+    border-radius: 38px;
+    border: none;
+    padding: 2%;
+    width: 25%;
+    color: rgb(183, 39, 39);
+}
+.DjEr{
+    color: white;
+}
+.Mas{
+    display: flex;
+}
+.backI{
+    background-image: url('/image/stmichel.jpg');
+    width:100vh;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: 110% 100%;
+}
+.fondI{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.517);
+}
+.Content-login{
+    width: 100%;
+    background-color: rgb(183, 39, 39);
+}
+.log{
+    margin-left: 35%;
+    margin-top: 15%;
+}
+.login-email{
+    margin-bottom: 8%;
+}
+.login-email input{
+    font-size: 25px;
+    padding: 2%;
+    border-radius: 38px;
+    border: none;
+}
+.login-pass{
+    margin-bottom: 8%;
+}
+.login-pass input{
+    font-size: 25px;
+    padding: 2%;
+    border-radius: 38px;
+    border: none;
+}
+
+.remember{
+    margin-bottom: 4%;
+  font-size: 20px;
+}
+.login-btn{
+    margin-left: 5%;
+    font-size: 23px;
+    border-radius: 38px;
+    border: none;
+    padding: 2%;
+    width: 30%;
+    color: rgb(183, 39, 39);
+}
+.login-email input:focus,.login-pass input:focus{
+    outline: none;
+border: 1px solid rgb(133, 102, 102);
+}
+.Plogin{
+    margin-left: 30%;
+    font-size: 23px;
+    font-weight: bold;
+    color: white;
+}
+.Mtsou{
+    color: white;
+}
+.msgF{
+    color: white;
+}
+.Fpass{
+    margin-left: 30%;
+    margin-top: 10%;
+}
+.mailFOR{
+    margin-bottom: 50px;
+}
+.mailFOR input{
+   font-size: 25px;
+   border-radius: 38px;
+   border: none;
+}
+.mailFOR input:focus{
+   outline: none;
+   border: 1px solid rgb(133, 102, 102);
+ }
+ .btnFOrg button{
+    border-radius: 38px;
+    border: none;
+    padding: 1%;
+    
+ }
+ .btnFOrg button:hover{
+    color: rgb(183, 39, 39);
+ }
+
+ .GrandeRevE{
+    display: flex;
+ }
+ .LogoRE{
+    display: flex;
+ }
+ .LogoRE img{
+ width: 80%;
+ margin-left: 10%;
+ margin-top: 10%;
+ }
+ .text-logo{
+   margin-right:23%;
+   width: 100%;
+   margin-top: 10%;
+  }
+  .content-RE{
+    margin-top: 15%;
+    margin-left: 10%;
+  }
+  .content-RE button{
+   background: none;
+   border: none;
+   text-decoration: none;
+   color: rgb(183, 39, 39);
+   font-weight: bold;
+   font-size: 16px;
+   margin-right: 2%;
+  }
+.bas-texte{
+    color: white;
+    margin-top: 80.3%;
+    background-color: rgb(223, 70, 70);
+    height: 8.2vh;
+    text-align: center;
+    padding: 2%;
+}
+.RA{
+    margin-bottom: 20px;
+}
+.RA a{
+   text-decoration: none;
+   color: rgb(183, 39, 39);
+   font-weight: bold;
+   font-size: 18px;
+}
+
+
+.RV{
+    margin-bottom: 20px;
+}
+.RV a{
+    text-decoration: none;
+    color: rgb(183, 39, 39);
+    font-weight: bold;
+    font-size: 18px;
+}
+
+
+.CPT{
+    margin-bottom: 20px;
+}
+.CPT a{
+    text-decoration: none;
+    color: rgb(183, 39, 39);
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.EP{
+    margin-bottom: 20px;
+}
+.EP a{
+    text-decoration: none;
+    color: rgb(183, 39, 39);
+    font-weight: bold;
+    font-size: 18px;
+}
+
+
+.Dec{
+    margin-bottom: 20px;
+}
+.Dec a{
+    text-decoration: none;
+    color: rgb(183, 39, 39);
+    font-weight: bold;
+    font-size: 18px;
+}
+.Part2{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(183, 39, 39);
+}
+.PART1{
+    width: 26%;
+}
+.RAP{
+    margin-left: 45%;
+    margin-top: 3%;
+    background-color: white;
+    width: 18%;
+    font-size: 20px;
+    padding: 0%;
+    text-align: center;
+    border-radius: 3px;
+    color:rgb(183, 39, 39);
+}
+.Grand-reset{
+    margin-left: 35%;
+    margin-top: 15%;
+}
+.Reset-email{
+    margin-bottom: 20px;
+}
+.Reset-email input{
+    font-size: 25px;
+    padding: 2%;
+    border-radius: 38px;
+    border: none;
+}
+.reset-pass{
+    margin-bottom: 20px;
+}
+.reset-pass input{
+    font-size: 25px;
+    padding: 2%;
+    border-radius: 38px;
+    border: none;
+}
+.reset-Cpas{
+    margin-bottom: 20px;
+}
+.reset-Cpas input{
+    font-size: 25px;
+    padding: 2%;
+    border-radius: 38px;
+    border: none;
+}
+.reset-pass input:focus,.reset-Cpas input:focus,.Reset-email input:focus{
+    outline: none;
+border: 1px solid rgb(133, 102, 102);
+}
+.reset-button{
+    margin-left: 10%;
+    margin-top: 9%;
+}
+.reset-button button{
+    font-size: 18px;
+    border-radius: 3px;
+    border: none;
+} 
+.reset-button button:hover{
+    color: rgb(183, 39, 39);
+} 
+.RAPEdit{
+    margin-left: 45%;
+    margin-top: 3%;
+    background-color: white;
+    width: 18%;
+    font-size: 20px;
+    padding: 0%;
+    text-align: center;
+    border-radius: 3px;
+    color:rgb(183, 39, 39);
+}
+.RAPV{
+    margin-left: 45%;
+    margin-top: 3%;
+    background-color: white;
+    width: 18%;
+    font-size: 20px;
+    padding: 0%;
+    text-align: center;
+    border-radius: 3px;
+    color:rgb(183, 39, 39);
+}
+.RAPCP{
+    margin-left: 45%;
+    margin-top: 3%;
+    background-color: white;
+    width: 18%;
+    font-size: 20px;
+    padding: 0%;
+    text-align: center;
+    border-radius: 3px;
+    color:rgb(183, 39, 39);
+}
+.editprofil-content{
+    margin-left: 40%;
+    margin-top: 8%;
+}
+.content-Npass{
+    margin-bottom: 20px;
+}
+.content-Npass input{
+    font-size: 25px;
+    padding: 2%;
+    border-radius: 3px;
+    border: none;
+}
+.content-CNP{
+    margin-bottom: 20px;
+}
+.content-CNP input{
+    font-size: 25px;
+    padding: 2%;
+    border-radius: 3px;
+    border: none;
+}
+.edit-email{
+    margin-bottom: 20px;
+}
+.edit-email input{
+    font-size: 25px;
+    padding: 2%;
+    border-radius: 3px;
+    border: none;
+}
+.edit-viewpass{
+    margin-top: 2%;
+    color: white;
+}
+.edit-btn button{
+
+    width: 55%;
+   padding: 1%;
+    margin-top: 5%;
+    font-size: 25px;
+    border-radius: 3px;
+    border: none;
+    color:rgb(183, 39, 39);
+}
+#edit-icon{
+   position: absolute;
+   right: 23%;
+   top: 26%;
+   font-size: 20px;
+}
+#edit-icon1{
+    position: absolute;
+    right: 23%;
+    top: 38%;
+    font-size: 20px;
+ }
+ #edit-icon2{
+    position: absolute;
+    right: 22.5%;
+    top: 51%;
+    font-size: 18px;
+ }

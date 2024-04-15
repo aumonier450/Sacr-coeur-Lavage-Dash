@@ -1,0 +1,383 @@
+body{
+    margin: 0%;
+}
+
+.Grand-content{
+    background-color: rgb(237, 84, 84);
+    height: 100vh;
+}
+
+.Nav{
+    position: fixed;
+    background-color: rgb(237, 84, 84);
+    width: 100%;
+   
+}
+.Nav-element{
+    margin-left: 75%;
+    margin-top: -2%;
+}
+.Nav-element li{
+    display: inline-block;
+    margin-right: 20px;
+}
+.Nav-element li a{
+  text-decoration: none;
+  color: white;
+}
+.Nav-element li a:hover{
+    border-bottom: 2px solid rgb(38, 6, 3)
+  }
+.text-acceuil p{
+    margin-top: 20%;
+    width: 50%;
+    font-size: 22px;
+    font-weight: bold;
+    margin-left: 7%;
+    color: rgb(245, 244, 244);
+}
+.Grand-acceuil{
+    display: flex;
+}
+.appli-client{
+    margin-left: 83%;
+    margin-top: 14%;
+    background-color: white;
+    padding: 16px;
+    text-align: center;
+    width: 12%;
+    border-radius: 7px  ;
+}
+.appli-client a{
+   text-decoration: none;
+   color: rgb(252, 0, 0);
+   font-size: 16px;
+}
+.logo-client{
+    margin-left: 2%;
+}
+.logo-client p{
+   color: white;
+}
+.TITRE-client{
+    width: 25%;
+    margin-left: 4%;
+    font-size: 20px;
+}
+.S-client{
+    margin-left: 4%;
+    font-size: 23px;
+}
+
+.service-client{
+    display: flex;
+    justify-content: space-around;
+    margin-top: -10%;
+    animation:  moveUp 10s ease;
+}
+.standar-client{
+    border-radius: 26px;
+    background-color: rgb(217, 217, 217);
+    width: 20%;
+    height: 45vh;
+    margin-left: 30%;
+    text-align: center;
+}
+.standar-client img{
+    
+    width: 80%;
+    
+}
+.delux-client{
+    border-radius: 26px;
+    background-color: rgb(217, 217, 217);
+    width: 20%;
+    text-align: center;
+}
+.delux-client img{
+    width: 80%;
+}
+.premium-client{
+    border-radius: 26px;
+    background-color: rgb(217, 217, 217);
+    width: 20%;
+    text-align: center;
+}
+.premium-client img{ 
+    width: 90%;
+}
+.tarif-client{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5%;
+}
+.tarif-standard{
+    padding: 0.5%;
+    border-radius: 15px;
+    text-align: center;
+    background-color: rgb(217, 217, 217);
+    width: 25%;
+}
+.tarif-delux{
+    padding: 0.5%;
+    border-radius: 15px;
+    text-align: center;
+    background-color: rgb(217, 217, 217);
+    width: 25%;
+}
+.tarif-premium{
+    padding: 0.5%;
+    border-radius: 15px;
+    text-align: center;
+    background-color: rgb(217, 217, 217);
+    width: 25%;
+}
+.P-standad{
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(252, 0, 0);
+}
+.p-delux{
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(252, 0, 0);
+}
+.p-premium{
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(252, 0, 0);
+}
+.ptarif-standard{
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(252, 0, 0);
+}
+.ptarif-delux{
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(252, 0, 0);
+}
+.ptarif-premium{
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(252, 0, 0);
+}
+.client-contact{
+    padding: 1%;
+    margin-left: 8%;
+    margin-top: 5%;
+    width: 50%;
+    background-color: rgb(217, 217, 217);
+}
+.client-contact input{
+   background: none;
+   outline: none;
+   border-bottom: 1px solid black;
+   border-left: none;
+   border-right: none;
+   border-top: none;
+}
+.client-contact textarea{
+    resize: none;
+    background: none;
+    outline: none;
+    border-bottom: 1px solid black;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+
+     }
+     .client-contact textarea:focus{
+        border-bottom: 1px solid red;
+    
+     }
+.client-contact input:focus{
+    border-bottom: 1px solid red;
+ }
+.client-contact1{
+    display: flex;
+    
+}
+.client-contact2{
+    width: 25%;
+    margin-top: 5%;
+    display: flex;
+    background-color: rgb(201, 10, 10);
+    height: 70vh;
+}
+
+.p-contact{
+    width: 40%;
+}
+.clientP-info{
+    margin-left: 30%;
+    margin-bottom: 3%;
+    font-weight: bold;
+    font-size: 23px;
+}
+.client-info{
+    
+    position: absolute;
+    left: 56%;
+  margin-top: 6%;
+    width: 29%;
+    height: 40vh;
+    background-color: black;
+    color: white;
+}
+.client-gmail{
+    margin-top: 10%;
+    margin-left: 15%;
+}
+.client-gmail p{
+   font-weight: bold;
+}
+.btn-contact input{
+    border: none;
+    background-color: red;
+    border: 1px solid red;
+    padding: 1%;
+    border-radius: 10px;
+    margin-left: 60px;
+    margin-top: 4%;
+
+}
+.contact-message{
+    margin-top: 5%;
+}
+.mail-contact{
+    margin-top: 5%;
+}
+.client-contacterNous{
+    margin-left: 7%;
+    font-weight: bold;
+    font-size: 20px;
+}
+.letter-client{
+    background-color: rgb(201, 10, 10);
+    padding: 1%;
+    color: white;
+    margin-top: 2%;
+}
+.titre-letter{
+    font-weight: bold;
+    font-size: 20px;
+}
+.saisir-letter{
+    margin-left: 60%;
+    margin-top: -4%;
+    height: 14vh;
+    
+}
+.saisir-letter input{
+    font-size: 20px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    padding: 1.2%;
+}
+
+.background-client{
+background-image: url('/image/Background.jpg');
+background-size: 100%;
+height: 70vh;
+background-repeat: no-repeat;
+background-position: center;
+margin-top: -1.3%;
+
+}
+.opacity-background{
+    width: 98%;
+    height: 65.6vh;
+    background-color: rgba(0, 0, 0, 0.527);
+    margin-top: 5%;
+    margin-top: 1%;
+    padding: 1%;
+}
+.opacity-background a img{
+    width: 3%;
+    margin-left: 6%;
+    margin-top: 2%;
+}
+.footer-client{
+    width: 30%;
+    margin-left: 3%;
+    color: white;
+    width: 30%;
+    font-size: 18px;
+}
+.coeur-client{
+    margin-left: 3%;
+    font-size: 20px;
+    font-weight: bold;
+   color: white;  
+}
+
+.navigation-client{
+    margin-left: 45%;
+    margin-top:-15% ;
+}
+.navigation-client p{
+    margin-left: 3%;
+    font-size: 20px;
+    font-weight: bold;
+   color: white; 
+}
+.navigation-client ul li {
+    text-decoration: none;
+    list-style: none;
+    margin-bottom: 10px;
+}
+.navigation-client ul a {
+    text-decoration: none;
+    color: white;
+}
+.navigation-client ul a:hover {
+   color: red;
+}
+.Heure-travail {
+   margin-left: 80%;
+   margin-top:-11%;
+ }
+ .Heure-travail p {
+    font-size: 20px;
+    font-weight: bold;
+   color: white;
+  }
+ 
+
+.date-client{
+    display: flex;
+    margin-top: 10%;
+}
+.date-client img{
+    width: 17%;
+    margin-right: 2%;
+}
+.trait-client{
+    width: 90%;
+    height: 0.1vh;
+    margin-left: 4%;
+    background-color: white;
+    margin-top: 12%;
+}
+.copryte-client{
+    margin-left: 38%;
+}
+.copryte-client p{
+    font-size: 20px;
+    color: white;
+}
+.btn-validé{
+   margin-left: 40%;
+   margin-top: -6.8%;
+}
+.btn-validé input{
+   padding: 1.3%;
+   background-color: red;
+   font-size: 24px;
+   color: white;
+ }
+
+
+
