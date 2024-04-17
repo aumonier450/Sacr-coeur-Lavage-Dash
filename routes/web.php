@@ -45,7 +45,7 @@ Route::prefix('client')->group(function(){
 
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('Client.dash');
 });
 
 Route::get('/dashboard', function () {
